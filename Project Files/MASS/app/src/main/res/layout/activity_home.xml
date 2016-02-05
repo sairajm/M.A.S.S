@@ -1,0 +1,64 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/blackbg"
+    android:layout_below="@drawable/logo"
+   >
+
+
+
+    <Button android:text="HEALTHCARE\n NEWS"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:onClick="newsFeed"
+        android:id="@+id/button"
+        android:textColor="#fffaefff"
+        android:layout_above="@+id/button3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="86dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="HOSPITAL\nFINDER"
+        android:onClick="hospitalFinder"
+        android:textColor="#fffaefff"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:id="@+id/button2" />
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CALL\n AMBULANCE"
+        android:onClick="AmbulanceDispatch"
+        android:layout_marginTop="72dp"
+        android:textColor="#fffaefff"
+        android:id="@+id/button5"
+        android:layout_below="@+id/button3"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PHARMACY\n LOCATOR"
+        android:onClick="pharmacyFinder"
+        android:id="@+id/button3"
+        android:textColor="#fffaefff"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/imageView"
+        android:background="@drawable/logo"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+
+</RelativeLayout>

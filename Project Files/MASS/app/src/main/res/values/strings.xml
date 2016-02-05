@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MASS</string>
+    <string name="action_settings">Settings</string>
+    <string name="edit_message">Enter your text here</string>
+    <string name="news">News</string>
+    <string name="title_activity_display_pharmacy">Medicine Name</string>
+    <string name="hospital">Hospital Finder</string>
+    <string name="pharmacy">Pharmacy Locator</string>
+    <string name="ambulance">CallAmbulance</string>
+    <string name="title_activity_display_news">DisplayNewsActivity</string>
+    <string name="pharmaloc">PHARMACY LOCATOR</string>
+    <string name="title_activity_display_hospital">DisplayHospitalActivity</string>
+    <string name="hello_world">hello world</string>
+    <string name="title_activity_pharma__maps">Pharmacy Location</string>
+    <string name="hello">This is your medicine name</string>
+    <string name="title_activity_pharmacy_map">Pharmacy_map</string>
+    <string name="title_activity_map">MapActivity</string>
+    <string name="title_activity_ambulance">Ambulance</string>
+    <string name="title_activity_all_productsactivity">AllProductsactivity</string>
+    <string name="title_activity_all_products">AllProductsActivity</string>
+    <string name="title_activity_pharm_map_display">PharmMapDisplay</string>
+    <string name="title_activity_splash_screen">SplashScreen</string>
+
+</resources>
